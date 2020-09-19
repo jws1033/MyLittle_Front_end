@@ -4,7 +4,7 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 import Menu from './Menu'
 import Footer from './Footer'
 import Home from './Home'
-import ReWard from './Reward'
+import Reward from './Reward'
 import MyPage from './MyPage'
 import PaperWeightRecode from './PaperWeightRecode'
 import PaperWeight from './PaperWeight'
@@ -23,7 +23,7 @@ const Main = () => {
                     <Home />
                 </Route>
                 <Route path="/reward">
-                    <ReWard />
+                    <Reward />
                 </Route>
                 <Route path="/mypage">
                     <MyPage />

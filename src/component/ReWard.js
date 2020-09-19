@@ -1,7 +1,7 @@
 import React from 'react'
 
 //ReWard
-const ReWard = () => {
+const Reward = () => {
     return (
         <div>
             <h1>리워드</h1>
@@ -9,4 +9,4 @@ const ReWard = () => {
     )
 }
 
-export default ReWard
+export default Reward
